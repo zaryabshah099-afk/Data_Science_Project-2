@@ -8,7 +8,9 @@ Dataset Name: Global Air Quality Dataset
 
 Problem Statement:
 
-This project analyzes global air quality data for the year 2024 across 10 major cities. The purpose is to understand AQI patterns across cities and countries, identify key pollutants, classify AQI categories using KNN and Naive Bayes supervised learning algorithms, and discover pollution clusters using K-Means and PCA unsupervised techniques.
+Urban air quality is a growing public health concern, particularly in densely populated cities where industrial activity, vehicle emissions, and seasonal weather patterns cause AQI levels to fluctuate significantly. Traditional traffic-management systems apply fixed rules regardless of real-time air quality conditions, leaving authorities unable to respond dynamically to pollution spikes.
+
+This project extends the AQI data science analysis from Assignment 3 by designing a simplified Reinforcement Learning (RL) system for adaptive traffic control. The RL agent observes AQI conditions drawn from the Global Urban Air Quality Dataset and learns whether a city should apply No Restriction, Partial Restriction, or a High-Pollution Alert. The agent is trained using Q-learning, a model-free RL algorithm that iteratively updates a state-action value table based on received rewards. The purpose is to understand how an agent can learn a decision policy through experience, guided by a reward function that balances public-health protection against unnecessary traffic disruption.
 
 Tools and Libraries Used:
 
